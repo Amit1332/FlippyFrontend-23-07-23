@@ -1,0 +1,11 @@
+.setpgcred label{
+font-size: .8rem;
+font-weight: bold;
+}
+.setpgcred input{
+    font-size: .9rem;
+    }
+
+    .setpgcred .form-group{
+        margin-top: 20px;
+    }

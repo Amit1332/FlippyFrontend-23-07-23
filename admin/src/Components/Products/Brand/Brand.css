@@ -1,0 +1,231 @@
+
+.brandpage{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.brandone:nth-child(1){
+    width: 60%;
+    height: 100%;
+
+}
+
+.brandone:nth-child(2){
+    width: 40%;
+    height: 100%;
+}
+
+
+.bbbnnerimg1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandname th{
+
+text-align: center;
+}
+
+.brandname td{
+
+    text-align: center;
+    }
+
+
+.brandlabel{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+}
+
+.brandlabel input{
+   width: 150px;
+    }
+
+
+
+    .brandname{
+
+padding: 10px 20px;
+
+    }
+
+    .addnewBrand{
+        height: auto;
+        width: 100%;
+padding: 10px 20px;
+
+    }
+
+
+
+
+
+  .brandform{
+    line-height: 35px;
+  }
+
+.brandup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    .upbrandlogo{
+        display: flex;
+        height: 25px;
+    }
+
+    .brandup #spvv{
+        font-size: 11px;
+        font-weight: 600;
+       color: #264B91;
+
+    }
+    
+    .upbrandlogo .browse{
+        display: flex;
+        align-items: center;
+        border: 1px solid #9ab5e9;
+      
+        padding: 2px 0px;
+        
+    }
+    .upbrandlogo .browse:nth-child(1){
+       width: 20%;
+       justify-content: center;
+       border-radius: 5px 0px 0px 5px;
+        
+    }
+    .upbrandlogo .browse:nth-child(2){
+        width: 80%;
+        justify-content: flex-start;
+        padding: 0px 20px;
+        border-radius: 0px 4px 4px 0px;
+     }
+
+     .brandform input{
+                padding: 2px 15px;
+                font-size: 11px;
+        border: 1px solid #95b2e8;
+
+     }
+
+   
+     .brandform .btn{
+       background-color: #264B91;
+       color: white;
+       margin-top: 20px;
+      
+    
+ }
+
+
+     
+     .brandform input:focus{
+                border: 1px solid #264B91;
+                box-shadow: none;
+     }
+
+
+     .brandform textarea:focus{
+        border: 1px solid #264B91;
+        box-shadow: none;
+}
+     .brandform label{
+        font-size: 11px;
+       color: #264B91;
+       font-weight: 600;
+}
+
+
+/* Edit Brand */
+
+.innereditbrand{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+
+.editnewBrand{
+    width: 60%;
+    line-height: 50px;
+    text-align: justify;
+}
+
+
+.editnewBrand .brandform .browse{
+   padding: 15px 15px;
+}
+.editnewBrand .brandform{
+    line-height: 50px;
+}
+.editnewBrand input{
+    font-size: 12px;
+    padding: 5px 20px;
+ 
+}
+
+
+.previewimg{
+    height: 60px;
+    width: 100%;
+    padding:6px 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.previewimglog{
+    height: 100%;
+    width: 70px;
+    position: relative;
+
+}
+.previewimglog img{
+    height: 100%;
+    width: 100%;
+    
+}
+.previewimglog .la-times{
+    background-color:#d9e5f9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  padding: 3px;
+  border-radius: 50%;
+  color: #264B91;
+  text-align: center;
+    
+}
+
+@media (max-width:800px) {
+    .editnewBrand{
+        width: 80%;
+       
+    }
+}
+@media (max-width:600px) {
+    .editnewBrand{
+        width: 90%;
+       
+    }
+}
+
+@media (max-width:500px) {
+    .editnewBrand{
+        width: 100%;
+       
+    }
+}

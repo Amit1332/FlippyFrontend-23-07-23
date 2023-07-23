@@ -1,0 +1,9 @@
+.mainrecomnedation{
+    text-align: left;
+    background: #E5E5E5;
+}
+@media only screen and (max-width: 600px) {
+    .peradowncard{
+        font-size: 5px;
+    }
+    }

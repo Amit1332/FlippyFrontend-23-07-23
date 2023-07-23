@@ -1,0 +1,94 @@
+.adminAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+     height: 80%;
+ }
+ 
+ 
+ 
+ 
+ .profile_card{
+     padding: 15px;
+     width: 350px;
+     height: auto;
+     height: 70vh;
+     background: #D9E5F9;
+     border-radius: 5px;
+     text-align: center;
+     box-shadow: 0 10px 15px rgba(64, 66, 66, 0.7);
+     user-select: none;
+ }
+ 
+ .profile_card .cover-photo {
+     position: relative;
+     background-image: url("../../../../public/flippyLogo.png");
+     background-size: cover;
+     height: 180px;
+     border-radius: 5px 5px 0 0;
+ }
+ 
+ .profile_card .profile {
+     position: absolute;
+     width: 120px;
+     bottom: -60px;
+     left: 15px;
+     border-radius: 50%;
+     border: 2px solid #D9E5F9;
+     background: #D9E5F9;
+     padding: 5px;
+ }
+ 
+ .profile_card .profile-name {
+     font-size: 20px;
+     margin: 25px 0 0 120px;
+     color:#164C96;
+     font-weight: 600;
+ }
+ 
+ .profile_card .about {
+     margin-top: 30px;
+     line-height: 1.6;
+     text-align: justify;
+     color:#164C96 ;
+     font-size: 14px;
+ }
+ .profile_card .about span{
+     color:#164C96 ;
+     font-weight: bold;
+ }
+ 
+ .profile_card .btn {
+     margin: 30px 15px;
+     background: #164C96;
+     padding: 10px 25px;
+     border-radius: 3px;
+     border: 1px solid #164C96;
+     font-weight: bold;
+     cursor: pointer;
+     color: white;
+     transition: 0.2s;
+ }
+ 
+ .profile_card .btn:last-of-type {
+     background: transparent;
+     border-color: #164C96;
+     color: #164C96;
+ }
+ 
+ .profile_card .btn:hover {
+     background: #164C96;
+     color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ .credadm{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }

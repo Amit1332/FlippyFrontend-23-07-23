@@ -1,0 +1,22 @@
+.card-header h3,
+.card-header h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.col-from-label{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.sss{
+    /* align-items: flex-start; */
+    justify-content: space-between;
+}
+.sss button{
+    display: flex;
+    align-items: flex-end;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

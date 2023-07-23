@@ -1,0 +1,173 @@
+.cancelledDanger{
+color: red;
+background-color: rgba(255, 152, 152, 0.549);
+}
+.warninack{
+    background-color: rgba(255, 230, 119, 0.566);
+    color: orange;
+}
+
+
+.tablistaddpro{
+    background-color: white;
+  }
+ 
+
+  #ex2{
+      display: flex !important;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: nowrap;
+  }
+  #ex3-tab-2:hover{
+      background-color: white;
+  }
+  #ex3-tab-2{
+      background-color: white;
+      display: flex;
+      align-items: center;
+      font-size: .8rem;
+      font-weight: 600;
+  }
+
+  .rs-picker-toggle-active, .rs-picker.rs-picker-focused{
+box-shadow: none !important;
+  }
+ 
+  .rs-picker-toggle{
+border: 1px solid black;
+}
+
+  .rs-picker-toggle-read-only {
+    opacity: 1;
+}
+ 
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+    padding-bottom: 8.5px;
+    padding-top: 8.5px;
+    z-index: 1;
+    border: 1px solid rgb(206, 203, 203);
+}
+
+
+
+
+  #ex3-tab-2 i{
+    font-size: 1.1rem;
+    margin-right: .1rem;
+  }
+  #ex3-tab-2 span{
+      font-size: .9rem;
+      margin-left: .5rem;
+  }
+  
+  
+  
+  .orderimages{
+      height: 2.5rem;
+      width: 2.5rem;
+  }
+  .orderimages img{
+  
+      border-radius: .5rem;
+  }
+  
+  .filterorderpage input{
+      padding: .45rem;
+  font-size: .8rem;
+  }
+  .filterorderpage .aab{
+    font-size: .8rem;
+    z-index: 99;
+
+
+}
+.filterorderpage .form-control{
+    padding: 8px;
+}
+  
+  .infop{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+  }
+  .acceptedfilter{
+      font-size: .9rem;
+  }
+  .acceptedfilter h6{
+      font-size: .9rem;
+      font-weight: bold;
+  }
+  
+  
+  
+  .acceptedfilter input[type=checkbox]{
+  
+  }
+  
+  .acceptedfilter input[type=checkbox]:checked +label{
+     color: #164C96;
+  }
+  .filteerbtn .btn{
+      padding: 7px 0px;
+  }
+
+  .datrangepick:focus{
+  }
+  @media (max-width:1100px) {
+     
+     
+      .filteerbtn .btn{
+          font-size: .9rem;
+      padding:7px ;
+  
+      }
+     
+    
+  }
+  
+  
+  
+  
+  @media (max-width:800px) {
+      .acceptedfilter{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+      }
+      .col-3{
+          width: 100%;
+          text-align: justify;
+      }
+      #ex2{
+          display: flex;
+          flex-wrap: nowrap;
+          
+      }
+      .form-group input{
+              min-width:40vw;
+  
+      }
+      .aab{
+        min-width:40vw;
+
+}
+      .filteerbtn{
+          display: flex;
+          min-width: 40vw;
+          flex-wrap: nowrap;
+      }
+      .filteerbtn .btn{
+          font-size: .9rem;
+      padding:7px ;
+  
+      }
+     
+    
+  }
+  

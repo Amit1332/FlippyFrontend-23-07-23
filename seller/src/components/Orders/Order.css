@@ -1,0 +1,120 @@
+.tablistaddpro{
+  background-color: white;
+}
+#ex2{
+    display: flex !important;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: nowrap;
+}
+#ex3-tab-2:hover{
+    background-color: white;
+}
+#ex3-tab-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 600;
+}
+#ex3-tab-2 i{
+  font-size: 1.1rem;
+  margin-right: .1rem;
+}
+#ex3-tab-2 span{
+    font-size: .9rem;
+    margin-left: .5rem;
+}
+
+
+
+.orderimages{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.orderimages img{
+
+    border-radius: .5rem;
+}
+
+.filterorderpage input{
+    padding: .45rem;
+font-size: .8rem;
+}
+
+.infop{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.acceptedfilter{
+    font-size: .9rem;
+}
+.acceptedfilter h6{
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+
+
+.acceptedfilter input[type=checkbox]{
+
+}
+
+.acceptedfilter input[type=checkbox]:checked +label{
+   color: #164C96;
+}
+.filteerbtn .btn{
+    padding: 5px 0px;
+}
+@media (max-width:1100px) {
+   
+   
+    .filteerbtn .btn{
+        font-size: .9rem;
+    padding:7px ;
+
+    }
+   
+  
+}
+
+
+
+
+@media (max-width:800px) {
+    .acceptedfilter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+        text-align: justify;
+    }
+    #ex2{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    .form-group input{
+            min-width:40vw;
+
+    }
+    .filteerbtn{
+        display: flex;
+        min-width: 40vw;
+        flex-wrap: nowrap;
+    }
+    .filteerbtn .btn{
+        font-size: .9rem;
+    padding:7px ;
+
+    }
+   
+  
+}

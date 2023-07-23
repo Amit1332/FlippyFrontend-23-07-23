@@ -1,0 +1,200 @@
+.wrapcardflexpayout{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: .1rem;
+}
+
+.statusCardpayout{
+    min-width: 33%;
+    
+}
+
+.payoutbox{
+    height: 2rem;
+    width: 2rem;
+}
+.payoutearningtext{
+    font-size: .6rem;
+}
+.paymentStrip{
+    height: 5vh;
+    width: 100%;
+    
+
+}
+.paymentStrip span{
+   font-size: .7rem;
+    
+
+}
+
+.statusCardpayout:nth-child(1) .paymentStrip{
+    background-color: #F1F8FD;
+    color: #164C96;
+
+}
+.statusCardpayout:nth-child(2) .paymentStrip{
+    background-color: #FEF8F2;
+    color: #D94A27;
+
+}
+.statusCardpayout:nth-child(3) .paymentStrip{
+    background-color: #F1F8FD;
+    color: #164C96;
+
+}
+#statcolor{
+    color: #667085;
+}
+
+.payoutearningtext{
+  text-align:left;
+}
+.danger{
+    color: #F04438;
+    background-color: #FEF3F2;
+}
+
+
+
+
+.wrapcardflexearningcard{
+gap: 1rem;
+}
+
+
+@media (max-width:800px) {
+    .wrapcardflexpayout{
+       flex-direction: column;
+       gap: 2rem;
+
+    }
+    .wrapcardflexearningcard{
+        flex-direction: row;
+    }
+    
+    .statusCardpayout{
+        min-width: 80%;
+        
+    }.payoutearningtext{
+        font-size: 1rem;
+    }
+    .paymentStrip span{
+        font-size: 1rem;
+         
+     
+     }
+
+
+}
+@media (max-width:600px) {
+   
+    .nav{
+        display: initial !important;
+    }
+    .statusCardpayout{
+        min-width: 90%;
+        
+    }.payoutearningtext{
+        font-size: .8rem;
+    }
+    .paymentStrip span{
+        font-size: .8rem;
+         
+     
+     }
+
+
+}
+
+.invoicePhoto{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2px;
+}
+.invoicePhoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#invoice p{
+margin: 0px;
+padding: 0px;
+font-size: .7rem;
+text-align: right;
+color: rgb(10,37,64);
+}
+
+#invoice h5{
+   font-size: 1.1rem;
+   text-align: right;
+   font-weight: bold;
+   color: rgb(10,37,64);
+    }
+
+    #invoicenumber{
+        text-align: left;
+    }
+
+    #invoicenumber h6{
+        margin: 0px;
+padding: 0px;
+font-size: .8rem;
+color: rgb(10,37,64);
+    }
+    #invoicenumber p{
+        margin: 0px;
+padding: 0px;
+font-size: .65rem;
+color: rgb(10,37,64);
+font-weight: 600;
+    }
+
+    .invoiceprodimage{
+        border-radius: 2px;
+    }
+    
+    .invoiceprodimage img{
+        border-radius: 2px;
+    }
+    .invoicetableor th{
+            font-weight: 600;
+            color: #0A2540;
+            font-size: .7rem;
+    }
+    .invoicetableor td{
+        font-size: .7rem;
+
+}
+
+
+
+
+.invoicetotal p{
+    margin: 0px;
+padding: 0px;
+font-size: .65rem;
+font-weight: 500;
+text-align: left;
+line-height: 20px;
+}
+.invoo p{
+font-weight: bold;
+color: red;
+}
+@media (max-width:500px) {
+   
+    .wrapcardflexearningcard{
+        /* flex-direction: row; */
+        columns: 2 !important;
+        
+    }
+    .statusflexearningcard{
+    max-width: 10rem !important;
+}
+    
+
+
+}

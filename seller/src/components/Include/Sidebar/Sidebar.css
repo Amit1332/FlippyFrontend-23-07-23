@@ -1,0 +1,227 @@
+#sidebar {
+    height: 100%;
+    position: relative;
+   text-align: left;
+    color: black;
+    transition: all 0.3s;
+    overflow: hidden;
+    scroll-behavior:smooth;
+    overflow-y:auto;
+}
+.rightcontainer span{
+    font-size: .9rem !important;
+}
+.sidebarbackgroundCol{
+    overflow: hidden;
+}
+
+#sidebar::-webkit-scrollbar {
+   display: none;
+  }
+   
+  #sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  #sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(146, 144, 144);
+    outline: 1px solid rgb(145, 147, 149);
+  }
+
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #FEF8F2;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a{
+    padding:10px 0px 10px 10px;
+    font-size: .8em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #e87809;
+}
+
+.dropdown-toggle {
+    color: black !important;
+}
+
+#sidebar ul li .clickmenu {
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sidebar ul li .clickmenu:hover {
+    color: black;
+    background: #fff;
+}
+
+
+
+#sidebar ul li.active>a,a[aria-expanded="true"] {
+    color: #e87809;
+    background: #FEF8F2;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: .8em !important;
+    padding-left: 10px !important;
+    font-weight: 500;
+}
+
+
+ul ul a i{
+   margin-right: 3px;
+}
+
+#sidebar ul li .clickmenu {
+    padding:0px 10px;
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sidebar ul li .clickmenu span{
+   color: white;
+}
+
+
+#sidebar ul li .ffff {
+    padding:0px 10px 0px 0px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.la-plus-circle{
+    font-size: 1.5em;
+}
+
+.navbox{
+    height: 100%;
+    min-width: 50%;
+    margin-left: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.search-box input{
+ border:none;
+ margin-left: 10px;
+ font-size: .8rem;
+}
+.search-box input:focus{
+   outline: none;
+   }
+
+
+   .shopprofiImages{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+   }
+   .shopprofiImages img{
+  height: 100%;
+  width: 100%;
+    border-radius: 50%;
+    
+   }
+
+   
+   .shopnameuser h6{
+    font-size: .8rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+   }
+   .shopnameuser p{
+    font-size: .6rem;
+    margin-top: 0;
+    margin-top: 2px;
+    font-weight: 600;
+
+
+   }
+
+   .dropdown-toggle-for-nav-account::after {
+    content: none;
+}
+
+@media (max-width: 600px) {
+.Productspplyer table td{
+    min-width: fit-content;
+}
+.col2{
+    column-count: 3;
+}
+.Productspplyer table td img{
+    flex-shrink: 0;
+}
+.textforlist{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.textforlist p{
+    padding-top: 1rem;
+    margin-bottom: 0px;
+    margin-left: -140%;
+}
+.rightpronav{
+    width: 100%;
+    margin-top: 10px;
+}
+.category{
+    padding-bottom: .5rem;
+}
+.rightcontainer .btn{
+    padding: 10px 20px;
+    font-size: 10px;
+}
+.rightcontainer span{
+    font-size: .6rem !important;
+}
+.rightcontainer i{
+    font-size: .6rem !important;
+}
+
+.accountnav .btn-group{
+    display: none;
+}
+.navbox{
+    width: fit-content !important;
+    margin-left: 2rem;
+    padding: 0px 0px;
+    gap: 2rem;
+}
+.notifi{
+    gap: 10px !important;
+}
+}
+

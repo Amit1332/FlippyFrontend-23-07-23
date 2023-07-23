@@ -1,0 +1,12 @@
+lable{
+    font-weight: 600;
+}
+.file-preview-item{
+    width: 100px;
+    height: 150px;
+    border: 1px solid #0000001d;
+    border-radius: 5px;
+}
+.file-preview-item img{
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+.productrecomendationimgtable img{
+    width: 28px;
+height: 28px;
+}
+.productrecomendationimgtable{
+    align-items: center;
+    display: flex;
+    /* transform: translate(0%,-20%); */
+    align-items: center;
+    gap: 5px;
+}
+.productrecomendationimgtable p{
+    height: fit-content;
+    /* background-color: aqua; */
+    transform: translate(0%,35%);
+}
+.table-content-product-recomendation{
+    font-size: 14px;
+}
+.table-content-product-recomendation thead{
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #667085;
+background-color: Gray/200;
+}
+.table-content-product-recomendation tbody{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    /* Gray/700 */
+    
+    color: #344054;
+}
+.table-content-product-recomendation thead th p{
+ /* margin-bottom: 6px; */
+}
+    .table-content-product-recomendation thead th:nth-child(1){
+    /* height: 40px; */
+    /* background-color: aqua; */
+    display: flex;
+    /* margin-top: 10px; */
+    align-items: center;
+}
+.table-content-product-recomendation tbody td{
+    padding-bottom: 0px;
+    /* background: #000; */
+}
+.table-content-product-recomendation tbody td p{
+    transform: translate(0%,35%);
+}
+.table-content-product-recomendation tbody td .btn2{
+    transform: translate(0%,10%);
+}
+.tablistaddpro ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Primary/500 */
+    
+    color: #164C96;    
+}
+.tablistaddpro .nav::-webkit-scrollbar,.tablistaddpro::-webkit-scrollbar,.ttscrollbar::-webkit-scrollbar{
+    height: 5px;  
+    background-color: aliceblue;  
+    border-radius: 20px;
+}
+.tablistaddpro .nav::-webkit-scrollbar-thumb,.tablistaddpro::-webkit-scrollbar-thumb,.ttscrollbar::-webkit-scrollbar-thumb{
+    /* height: 10px;   */
+    border-radius: 20px;
+    background-color: rgb(1, 112, 209);  
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .table-content-product-recomendation{
+    overflow: auto;
+  }
+  
+  }

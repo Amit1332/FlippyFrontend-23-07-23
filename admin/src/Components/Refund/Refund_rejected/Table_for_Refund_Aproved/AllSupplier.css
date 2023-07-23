@@ -1,0 +1,13 @@
+
+
+.searchsuppl{
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.searchsuppl span {
+  font-size: 0.8rem;
+}

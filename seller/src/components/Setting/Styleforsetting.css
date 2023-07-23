@@ -1,0 +1,88 @@
+.active{
+    background-color: white !important;
+    color: #164C96;
+}
+.active i{
+    color: #164C96;
+}
+.settingpage .tab-pane{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.settingpage .tab-pane input{
+    width: 40%;
+}
+.navsetting{
+    text-transform: capitalize;
+}
+.settingpage .tab-pane ul {
+    list-style: none;
+    font-size: 1rem;
+  }
+  
+  .settingpage .tab-pane ul li::before {
+    content: "O ";
+    color: rgb(202, 202, 202);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(202, 202, 202);
+  }
+.ruleslegal p{
+    color: #164C96;
+}
+.navsidesetting i{
+    color: gray;
+}
+@media only screen and (max-width: 600px) {
+     .nav{
+        display: flex !important;
+    }
+    .navsetting span{
+        /* display: none; */
+        margin-left: 0px !important;
+    }
+    .settingpage .tab-pane input {
+        width: 100%;
+        font-size: 14px !important;
+    }
+    .settingpage .tab-pane ul{
+        font-size: 14px!important;
+        margin-top: -14px!important;
+        padding-left: 0px!important;
+    }
+    .settingpage h1{
+        text-align: center !important;
+        margin-right: 0px !important;
+        font-size: 1.1rem !important;
+        line-height: 25px;
+
+    }
+    .tab-pane p{
+        font-size: 15px !important;
+        margin-top: 0px !important;
+        line-height: 13px;
+        display: initial;
+    }
+    .dflexnone{
+        display: initial !important;
+    }
+    .dflexnone img{
+        height: 4rem !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn2{
+        margin: 0 auto;
+    }
+    .navsetting{
+        columns: 3 !important;
+    }
+    .nav-link{
+        padding-left: 10px !important;
+        font-size: 10px !important;
+    }
+    .tab-pane h1{
+        display: initial;
+    }
+    }

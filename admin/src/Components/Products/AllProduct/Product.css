@@ -1,0 +1,436 @@
+
+
+
+.allproducts{
+    
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 10px;
+
+    
+}
+.innerallproducts{
+   height: 100%;
+    width: 100%;
+    
+}
+
+.productheading{
+    height: auto;
+    width: 100%;
+}
+.productheadingtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productheadingtop .btn{
+padding: 10px 20px;
+background-color: #264B91;
+font-weight: 600;
+border-radius: 20px;
+color: white;
+}
+span{
+    font-size: 13px;
+    font-weight:600;
+    color: rgb(41, 40, 40);
+
+}
+.productsfilter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.searfilterproduct{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+.searfilterproduct span{
+    font-size: .8rem;
+}
+
+.seacrch{
+    width: 100%;
+}
+.seacrch input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #264B91;
+    padding: 5px 8px;
+    font-size: .8rem;
+}
+.seacrch input:hover{
+    border: 1px solid #264B91;
+}
+.seacrch input:focus{
+    outline:1px solid #264B91;
+}
+th{
+    font-size: .8rem;
+font-family: sans-serif;
+font-weight: bold;
+
+}
+
+
+  .productlist td{
+    color: rgb(29, 28, 28);
+    border: none;
+    
+
+  }
+ 
+
+  .productlist th{
+    padding-top:.2rem  ;
+    padding-bottom: .2rem;
+      
+  }
+ 
+ 
+  .productlist td{
+    padding-top:.2rem  ;
+    padding-bottom: .2rem;
+      
+  }
+ 
+  .productlist tr{
+    padding:0rem 1rem;  
+    border:1px solid rgb(231, 226, 226);
+  }
+
+    
+
+
+
+.tableheadbg{
+    background-color: #103A81;
+    color: white;
+}
+
+
+.productlist{
+  border-radius: .6rem;
+}
+
+
+
+  .myinput[type="checkbox"]:after {
+    background-image: linear-gradient(135deg, #103A81 0%, #103A81);
+   
+  }
+
+  .fillbtn{
+    margin: 1px;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(68, 67, 67);
+  }
+  
+
+  .fillbtn:nth-child(1){
+   background-color: #bff6d1;
+  }
+
+  .fillbtn:nth-child(2){
+    background-color: #c8ccf8;
+   }
+   .fillbtn:nth-child(3){
+    background-color: #fbdfb7;
+   }
+   .fillbtn:nth-child(4){
+    background-color: #f6bfbf;
+   }
+
+
+   .fillbtn:nth-child(1):hover{
+    background-color: #52f789;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   }
+ 
+   .fillbtn:nth-child(2):hover{
+     background-color: #9da5fb;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    }
+    .fillbtn:nth-child(3):hover{
+     background-color: #ffcf8b;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    }
+    .fillbtn:nth-child(4):hover{
+     background-color: #f28282;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    }
+    #allfillflex{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+
+    .page-link{
+        background-color: #dfeafd;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .page-link:hover{
+        background-color: #264B91;
+        color: white;
+        font-weight: bold;
+        
+    }
+  .pagination{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+    .pagination .active{
+        background-color: #264B91;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .pagination .page-item{
+        padding: 2px 3px;
+    }
+
+
+    .excelcsv{
+        padding: 10px;
+        height: auto;
+        width: 100%;
+        background-color: #CCE5FF;
+        border-radius: 5px;
+    }
+    .excelcsv ol li{
+       font-size: 11px;
+       color: #134085;
+       padding: 0;
+       line-height: 30px;
+
+    }
+    .excelcsv ol span{
+        color: #134085;
+ 
+     }
+
+     .downloadexcelpr{
+        margin: 20px 0px;
+     }
+     .downloadexcelpr .btn{
+        background-color: #134085;
+        color: white;
+        margin-right: 10px;
+     }
+
+     .uppp{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+     }
+
+    .uploadexfile{
+        width: 100%;
+        height: 28px;
+        display: flex;
+        align-items: center;
+       
+
+    }
+    #fbcc{
+        width: 90%;
+        border: 1px solid rgb(225, 223, 223);
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        padding: 0px 15px;
+        height: 100%;
+    }
+
+    .uploadexfile span{
+        height: 100%;
+        width: 10%;
+        border: 1px solid rgb(224, 223, 223);
+        background-color: #E7F4FC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: rgb(97, 97, 97);
+        
+    }
+    .custom-file{
+        margin: 20px 0px;
+    }
+
+
+    .uploadexfile{
+        cursor: pointer;
+    }
+
+    .form-check{
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 24px;
+    }
+
+
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 2.5px;
+      bottom: 2.5px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: #164c96;
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #164c96;
+    }
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(15px);
+      -ms-transform: translateX(15px);
+      transform: translateX(15px);
+    }
+    
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+
+
+
+
+
+
+
+    
+    .css-serial {
+        counter-reset: serial-number;  /* Set the serial number counter to 0 */
+
+      }
+      
+
+      .css-serial td:first-child .customerss:before{
+        counter-increment: serial-number;  /* Increment the serial number counter */
+        content: counter(serial-number);  /* Display the counter */
+        
+      }
+
+     
+
+      /* .productlist{
+        position: relative;
+        overflow: hidden;
+        scroll-behavior:smooth;
+        overflow-x:auto;
+    } */
+    
+    
+    
+    .startcontentleft{
+        text-align: left;
+        font-size: .8rem;
+    }
+    
+    .productlist::-webkit-scrollbar {
+       height: 5px;
+      
+       }
+        
+       .productlist::-webkit-scrollbar-track {
+         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+         cursor: pointer;
+         border-radius: 10px;
+       }
+        
+       .productlist::-webkit-scrollbar-thumb {
+         background-color: #164C96;
+         cursor: pointer;
+         border-radius: 10px;
+       }
+    
+
+       @media (max-width:800px) {
+      .productlist th{
+        padding:.2rem;
+      }
+
+      .uploadexfile span{
+        width: 20%;
+        background-color: #E7F4FC;
+     
+        
+    }
+
+      .searfilterproduct{
+       gap: .5rem;
+    }
+      
+       }
+    
+        

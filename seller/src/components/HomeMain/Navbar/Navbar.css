@@ -1,0 +1,208 @@
+
+  .navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    
+
+}
+.left_nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+  .left_nav .whywhy{
+    display: flex;
+  padding: 0;
+  height: 100%;
+  align-items: center;
+
+  }
+  .left_nav .whywhy li{
+    color: grey;
+    list-style: none;
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+  }
+  .right_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .right_nav button{
+    margin: 0px .5rem;
+    font-size: .9rem;
+
+  }
+  .login_btn{
+    color: black;
+    background-color: #fff;
+    border-radius: 17px;
+    border: 1px solid rgba(22,76,150);
+    color: rgba(22,76,150);
+}
+  .supplier_btn{
+    border-radius: 17px;
+    border: none;
+    color: white;
+    background-color: rgb(22,76,150);
+  }
+  .company_logo{
+    height: 3rem;
+  }
+
+
+  
+  @media (max-width:900px) {
+    .navbar{
+      height: 4rem;
+      padding: 0rem .5rem;
+      
+  
+  }
+  
+   
+    .left_nav .whywhy li{
+      font-size: 13px;
+      margin-left: 1rem;
+    }
+   
+    .right_nav button{
+      margin: 0px .2rem;
+      font-size: .8rem;
+  
+    }
+    .company_logo{
+      height: 2rem;
+    }
+   
+      
+  }
+
+
+
+  @media (max-width:750px) {
+    .navbar{
+      height:auto;
+      padding: 0rem 1rem;
+
+      
+  
+  }
+  
+  .right_nav{
+    position: absolute;
+    right: 1rem;
+    top: 3.5rem;
+  }
+   
+    .left_nav .whywhy li{
+      font-size: 13px;
+      margin-left: 2vw;
+      
+    }
+   
+    .right_nav button{
+      margin: 0px .2rem;
+  
+    }
+    .company_logo{
+      height: 3rem;
+    }
+  }
+
+  @media (max-width:570px) {
+    .navbar{
+      padding: 0rem .5rem;
+
+      
+  
+  }
+  
+  
+    .left_nav .whywhy li{
+      font-size: .8rem;
+      margin-left: 1.8vw;
+      
+    }
+    .right_nav{
+      top: 3rem;
+    }
+   
+    .right_nav button{
+      margin: 0px .2rem;
+      font-size: .7rem;
+  
+    }
+   
+    .company_logo{
+      height: 2.5rem;
+    }
+  }
+
+
+  @media (max-width:530px) {
+    .navbar{
+      padding: 0rem .5rem;
+
+      
+  
+  }
+  
+  
+ 
+    .left_nav .whywhy li{
+      font-size: .6rem;
+      margin-left: 1.8vw;
+      
+    }
+    .right_nav{
+      top: 2.5rem;
+    }
+   
+    .right_nav button{
+      margin: 0px .2rem;
+      font-size: .6rem;
+  
+    }
+   
+   
+    .company_logo{
+      height: 2rem;
+    }
+  }
+
+
+  
+  @media (max-width:414px) {
+   
+  .navbar{
+    padding: .5rem .5rem;
+  }
+ 
+   
+    .right_nav{
+      top: 2.8rem;
+    }
+   
+    .right_nav button{
+      margin: 0px .2rem;
+      font-size: .6rem;
+  
+    }
+   
+   
+    .company_logo{
+      height: 1.5rem;
+    }
+  }
+

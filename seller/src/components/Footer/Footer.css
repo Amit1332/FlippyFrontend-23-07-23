@@ -1,0 +1,203 @@
+.Fotercomponent{
+    width: 93%;
+    
+    margin: 0px auto;
+    /* background-color: #344054; */
+    border-top:  1px solid rgb(164, 164, 164);
+}
+
+/* Top Footer css*/
+.Topfooter{
+    display: flex;
+    gap: 3rem;
+    text-align: justify;
+}
+
+.ServiceComponent{
+    width: 6rem;
+}
+#ser2{
+    width: 14rem;
+}
+.ServiceComponent h1, #ser2 h1{
+    font-size: 1.3rem;
+    color: rgb(43, 43, 91);
+    margin-bottom: 1.5rem;
+margin-top: 1.2rem;
+}
+.Services p{
+    margin-bottom: 0.3rem;
+    font-size: .7rem;
+    padding: 0px;
+    color: rgb(108, 108, 108);
+    display: flex;
+    gap: .4rem;
+}
+
+.Services i{
+    font-size: 1.2rem;
+}
+.Services span{
+    width: 100%;
+    margin: 0px;
+    line-height: 0.9rem;
+}
+
+.logocomponent img{
+   height: 4rem ; 
+}
+.logocomponent{
+    overflow: hidden;
+
+}
+.pay{
+    height: 1rem;
+}
+.method img{
+    height: 2.2rem;
+    margin-left: 0.5rem;
+    width: 3.5rem;
+}
+.Paymethodcompo{
+    width: 30%;
+}
+.logocomponent p{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    font-size: .9rem;
+}
+.methods h1{
+    margin-top: -.5rem;
+    font-size: 1.3rem;
+}
+
+/* Middle Footer css */
+
+.Moreflippy {
+    margin: 2rem 0px;
+    border: 1px solid gray;
+    padding: 0px 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+
+    color: #475467;
+}
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.head h3{
+    font-size: 24px;
+    margin: 0px;
+}
+.aboutflippy{
+    width: fit-content;
+    margin-top: .3rem;
+
+    padding: .8rem;
+    border-top: 1px solid gray;
+}
+.question h4{
+font-size: 16px;
+font-weight: 600;
+color: #1D2939;
+}
+.question p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #667085;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* downfooter css */
+
+.Downfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.leftdownfooter,.logotextdownfooter,.rightdownfooter{
+    display: flex;
+}
+.leftdownfooter{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    gap: .7rem;
+}
+.leftdownfooter i{
+    color: #D94A27;
+    font-size: 20px;
+}
+.logotextdownfooter{
+    gap: .2rem;
+}
+.middledownfooter{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #475467;
+
+}
+.rightdownfooter i{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 36px;
+height: 36px;
+
+/* Gray/100 */
+
+background: #F2F4F7;
+/* Gray/100 */
+
+border: 1px solid #F2F4F7;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.rightdownfooter{
+    gap: .5rem;
+    font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+
+.Downfooter{
+    flex-direction: column;
+    align-items: center;
+}
+.Topfooter{
+    flex-wrap: wrap !important;
+}
+.rightdownfooter{
+    padding-bottom: 2rem !important;
+}
+.Paymethodcompo{
+    width: 100%;
+}
+}

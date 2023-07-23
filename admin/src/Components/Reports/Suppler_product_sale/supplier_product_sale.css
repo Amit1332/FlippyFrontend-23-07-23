@@ -1,0 +1,49 @@
+.aiz-selectpicker{
+    width: 65%;
+    outline: none;
+    height: fit-content;
+    padding: 10px 5px;
+}
+.aiz-selectpicker:focus{
+    outline: none;
+    border: none;
+}
+.aiz-selectpicker option{
+    padding: 10px 5px !important;
+}
+
+
+.productSaleCard{
+    width: 60%;
+}
+.productSaleCard .form-group{
+    gap: 20px;
+   
+}
+
+@media (max-width:600px) {
+    .productSaleCard{
+        width: 80%;
+    }
+    .productSaleCard .form-group{
+        flex-direction: column;
+    gap: 5px;
+
+       
+    }
+    .productSaleCard .form-group  .col{
+        width: 80%;
+    }
+
+    .productSaleCard .form-group .gap-4{
+        gap: 10px;
+       
+    }
+   
+}
+
+@media (max-width:400px) {
+    .productSaleCard{
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.card-file-thumb{
+    width: 210px;
+    height: 200px;
+}
+.card-file-thumb img{
+    width: 100%;
+    height: 100%;
+}
+.threedotimg{
+    position: absolute;
+    top: 10px;
+    background-color: rgba(250, 235, 215, 0.432);
+    border-radius: 50%;
+    padding: 5px;
+    color: black;
+    right: 20px;
+    z-index: 9999;
+}
+.posrele{
+    position: relative;
+    padding-bottom: 30px;
+}

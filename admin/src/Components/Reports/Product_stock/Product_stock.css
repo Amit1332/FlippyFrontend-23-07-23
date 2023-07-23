@@ -1,0 +1,13 @@
+.aiz-selectpicker{
+    width: 65%;
+    outline: none;
+    height: fit-content;
+    padding: 10px 5px;
+}
+.aiz-selectpicker:focus{
+    outline: none;
+    border: none;
+}
+.aiz-selectpicker option{
+    padding: 10px 5px !important;
+}

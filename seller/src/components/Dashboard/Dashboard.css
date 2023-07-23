@@ -1,0 +1,307 @@
+
+ .wrapcardflex{
+   
+    /* gap: 1rem; */
+ }
+
+   .cardtit{
+    font-size: .7rem;
+}
+
+.box{
+height: 1.8rem;
+width: 1.8rem;
+background-color: #ECFDF3;
+display: flex;
+align-items: center;
+justify-content: center;
+color: green;
+font-weight: bold;
+}
+.textboldkar{
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+.earningtext{
+    font-size: .8rem;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: .8rem;
+    font-weight: 600;
+    color:#344054;
+}
+.refresh_icon_dashboard{
+    background-color: #E7F4FC;
+    padding: 5px;
+    border-radius: 50%;
+}
+.orderhistory{
+    height: 1.6rem;
+    width:1.6rem;
+    border-radius:.6rem;
+ border: 1px solid #D0D5DD;
+ font-size: .6rem;
+}
+.orderhistory:hover{
+    color: white;
+    background-color: #164C96;
+   
+}
+a{
+    color: #344054;
+}
+
+.ordercountcust h6{
+    font-size: .9rem;
+    font-weight: bold;
+}
+.ordercountcust p{
+    font-size: .6rem;
+}
+.ordercountcust .card-body{
+   padding:10px 0px 0px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.exportReport{
+    font-size: .6rem;
+    color:#667085 ;
+}
+
+
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.card-images{
+    height: 2.3rem;
+    width: 2.3rem;
+
+}
+.card-images img{
+    height: 100%;
+    width: 100%;
+    
+}
+.productdetalis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: .4rem;
+    margin-left: .8rem;
+}
+.productdetalis h6{
+font-size: .8rem;
+font-weight: 600;
+}
+.productdetalis span{
+    font-size: .6rem;
+    }
+    
+    .productrepee{
+font-size: .8rem;
+font-weight: 600;
+
+    }
+    .la-rupee-sign{
+        font-weight: bold;
+    }
+
+    .customerimages{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+
+    }
+    .customerimages img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        
+    }
+
+    #chart{
+        overflow:hidden;
+        position: relative;
+        
+    }
+
+    #chart::-webkit-scrollbar {
+       height: 5px;
+      
+       }
+        
+       #chart::-webkit-scrollbar-track {
+         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+         cursor: pointer;
+         border-radius: 10px;
+       }
+        
+       #chart::-webkit-scrollbar-thumb {
+         background-color: #164C96;
+         cursor: pointer;
+         border-radius: 10px;
+       }
+    
+
+
+    .startcontentleft th{
+            padding: 8px;
+    }
+    .startcontentleft td{
+        padding: 8px;
+}
+
+.customerss{
+margin-top: 7px;
+}
+.customerss i{
+    font-size: 1.1rem;
+    }
+    .warning{
+       background-color:#fff8e2;
+       color: #E99E51;
+    }
+    .blueback{
+       background-color: #E7F4FC ;
+       color:#164C96;
+    }
+  .successColor{
+    color:#12B76A;
+    background-color: #ECFDF3;
+  }
+   
+
+.statusCard{
+    max-width: 25%;
+    padding: 0px;
+
+}
+@media (max-Width:800px) {
+    .row{
+        display: flex;
+    }
+    .col-1{
+        width: 100%;
+    }
+  
+    .col-8{
+        width: 100%;
+    }
+    .col-7{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+        
+    }
+    .statusCard{
+        min-width: 45%;
+        
+    }
+    .wrapcardflex{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+    }
+    .donutchart{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+  
+}
+
+
+@media (max-width:600px) {
+    .statusCard{
+        min-width: 45%;
+        
+    }
+    .wrapcardflex{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       gap: .5rem;
+    }
+    
+    
+}
+@media (max-width:500px) {
+    .statusCard{
+        min-width: 90%;
+        padding: 0;        
+    }
+    .wrapcardflex{
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+    .cardtit{
+        font-size: .6rem;
+    }
+    .donutchart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width:400px) {
+    
+    .wrapcardflex{
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+    
+.box{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+    }
+    .textboldkar{
+        font-weight: bold;
+        font-size: .9rem;
+        
+    }
+    .cardtit{
+        font-size: .6rem;
+    }
+    .earningtext{
+        font-size: .6rem;
+        align-items: flex-end;
+        font-weight: bold;
+    }
+    
+    .card-text{
+        font-size: .6rem;
+        font-weight: 600;
+        color:#344054;
+    }
+    
+}
+
+
+
+    

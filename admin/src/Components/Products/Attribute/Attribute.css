@@ -1,0 +1,42 @@
+#attrijs{
+
+    text-align: justify;
+}
+#setatval{
+    padding: 0px 5px;
+    background-color: #E7F4FC;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin: 5px;
+    cursor:auto;
+        
+}
+
+#setatval i{
+   position: absolute;
+   top:-8px;
+   right: -8px;
+   font-size: 18px;
+   color: #164c96;
+   cursor:pointer;
+
+}
+#setatval i:hover{
+    color: #164c96;
+  background-color:#E7F4FC ;
+  border-radius: 50%;
+ }
+ .additemattr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+ }
+
+ .additemattr .btn{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: crimson;
+ }
